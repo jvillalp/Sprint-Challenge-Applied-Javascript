@@ -30,13 +30,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+The DOM is an object-based represenation of the source HTML document. We would use it to convert the structure and content of the HTML. That means we can add, delete or change content on the HTML document without having to touch the HTML. (this week we used javascript in the DOM to change the HTML).
+
 2. What is an event?
+
+An event is what happens to an HTM element. Events give us control of how we can alter the HTML/CSS in a webpage by using javascript. Examples are  'click', 'mouseover', 'keydown', 'mouseout'.
 
 3. What is an event listener?
 
+An event listener is a procedure that is waiting for an event to occur. We add the .addEventListener() method to an event of an element so that when we (for example) hover over an element on a webpage, it does what the event intented. An .addEventListener can also be removed if we wanted to. 
+
 4. Why would we convert a NodeList into an Array?
 
+<!-- NodeList can contain elements along with other types of nodes like text blocks. -->
+We would have to convert nodeList into an array because the .querySelectorAll method returns an array-like object, which is may appear like an array but it is not because we can not use them for array methods like .map and .forEach
+
 5. What is a component?
+
+Componenets are independant and reusable code. They work in isolation and return some type of HTML in the produced function. We can use API in web development that allows us to create custome, reusable HTML tags. These components also allow us to add unto HTML with new elements in which we can add event and eventListeners. 
+
+
 
 ### Git Set up
 
@@ -55,7 +68,7 @@ Your finished project must include all of the following requirements:
 
 * [x] Following the instructions in the `Tabs/index.js` file, create individual Tabs components.
 
-* [ ] Following the instructions in the `Cards/index.js` file, create individual Cards components.
+* [x] Following the instructions in the `Cards/index.js` file, create individual Cards components.
 
 ## Stretch Problems
 
