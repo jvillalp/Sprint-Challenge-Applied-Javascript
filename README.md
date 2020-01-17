@@ -49,8 +49,6 @@ We would have to convert nodeList into an array because the .querySelectorAll me
 
 Componenets are independant and reusable code. They work in isolation and return some type of HTML in the produced function. We can use API in web development that allows us to create custome, reusable HTML tags. These components also allow us to add unto HTML with new elements in which we can add event and eventListeners. 
 
-
-
 ### Git Set up
 
 * [x] Fork the project into your GitHub user account
@@ -68,7 +66,7 @@ Your finished project must include all of the following requirements:
 
 * [x] Following the instructions in the `Tabs/index.js` file, create individual Tabs components.
 
-* [x] Following the instructions in the `Cards/index.js` file, create individual Cards components.
+* [x] Following the instructions in the `Cards/index.js` file, create individual Cards components. 
 
 ## Stretch Problems
 
