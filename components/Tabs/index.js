@@ -18,8 +18,9 @@ axios
         console.log('The data is not responding', error);
     });
 
+    const entryPoint = document.querySelector('.topics');
+    
     function Tab(topics){
-        const entryPoint = document.querySelector('.topics');
         topics.forEach((topic) => {
             const tabTop = document.createElement('div');
             tabTop.classList.add('tab');
